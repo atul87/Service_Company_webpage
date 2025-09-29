@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Our Business</title>
+    <link rel="stylesheet" href="style45.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="kuku.html">Our Business</a>
+            </div>
+            <div class="nav-menu">
+                <a href="kuku.html#header">Home</a>
+                <a href="kuku.html#services">Services</a>
+                <a href="kuku.html#about">About Us</a>
+                <a href="kuku.html#store">Store</a>
+                <a href="kuku.html#testimonials">Testimonials</a>
+                <a href="kuku.html#faq">FAQ</a>
+                <a href="kuku.html#contact">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <div class="search-container">
+                    <input type="text" id="search-bar" placeholder="Search...">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="cart-header">
+        <div class="header-content">
+            <h1>Your Shopping Cart</h1>
+            <p>Review your items before checkout</p>
+        </div>
+    </header>
+
+    <section id="cart-section">
+        <div class="cart-container">
+            <div id="cart-items">
+                <!-- Cart items will be populated by JavaScript -->
+                <p class="empty-cart-message">Your cart is empty. <a href="kuku.html#store">Continue shopping</a></p>
+            </div>
+            
+            <div class="cart-summary">
+                <h3>Order Summary</h3>
+                <div class="summary-item">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">$0.00</span>
+                </div>
+                <div class="summary-item">
+                    <span>Shipping:</span>
+                    <span id="shipping">$0.00</span>
+                </div>
+                <div class="summary-item">
+                    <span>Tax:</span>
+                    <span id="tax">$0.00</span>
+                </div>
+                <div class="summary-item total">
+                    <span>Total:</span>
+                    <span id="total">$0.00</span>
+                </div>
+                <button id="checkout-button" class="action-button">Proceed to Checkout</button>
+                <button id="continue-shopping" class="action-button secondary" style="margin-top: 10px;">Continue Shopping</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Our Business</h3>
+                <p>Providing innovative solutions for businesses since 2010.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="kuku.html#header">Home</a></li>
+                    <li><a href="kuku.html#services">Services</a></li>
+                    <li><a href="kuku.html#about">About Us</a></li>
+                    <li><a href="kuku.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for updates.</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Your Email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 Our Business. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
